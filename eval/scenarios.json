@@ -1,0 +1,7 @@
+[
+  {"id": "budget", "conversation": "Alex: I love hiking, budget $30", "expected_travelers": 1, "expected_interests": ["hiking"]},
+  {"id": "conflict", "conversation": "Alex: I love hiking\nSam: I avoid hiking", "expected_travelers": 2, "expected_interests": ["hiking"]},
+  {"id": "shared", "conversation": "Alex: I love food\nSam: I love food and art", "expected_travelers": 2, "expected_interests": ["food", "art"]},
+  {"id": "budget_two", "conversation": "Alex: budget $60 and coffee\nSam: budget $50 and museums", "expected_travelers": 2, "expected_interests": ["coffee", "museum"]},
+  {"id": "nature", "conversation": "Alex: I want nature and photography", "expected_travelers": 1, "expected_interests": ["nature", "photography"]}
+]
